@@ -23,6 +23,7 @@ public class UIManager : MonoBehaviour
     public Transform target3; // player target
     public Transform target4; // credits target
 
+
     private bool volumeHasMoved;
     private bool optionsHasMoved;
     private bool creditsHasMoved;
@@ -126,6 +127,11 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    public void ResumeClick()
+    {
+        Time.timeScale = 1;
+    }
+
     IEnumerator volumeEnumerator()
     {
         volumeHasMoved = true;
@@ -153,4 +159,6 @@ public class UIManager : MonoBehaviour
         yield return new WaitForSeconds(0.9f);
         creditsHasMoved = false;
     }
+
+
 }

@@ -224,6 +224,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2208878852150864481, guid: c366c2c9b2a18ac408ff15658eadf683, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -15.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3353007124929047235, guid: c366c2c9b2a18ac408ff15658eadf683, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4817598979895824075, guid: c366c2c9b2a18ac408ff15658eadf683, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1.0256
+      objectReference: {fileID: 0}
+    - target: {fileID: 4817598979895824075, guid: c366c2c9b2a18ac408ff15658eadf683, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 39.9
+      objectReference: {fileID: 0}
     - target: {fileID: 5547437195245575003, guid: c366c2c9b2a18ac408ff15658eadf683, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -303,6 +319,22 @@ PrefabInstance:
     - target: {fileID: 5547437195245575003, guid: c366c2c9b2a18ac408ff15658eadf683, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6534101428279500431, guid: c366c2c9b2a18ac408ff15658eadf683, type: 3}
+      propertyPath: m_fontSize
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6534101428279500431, guid: c366c2c9b2a18ac408ff15658eadf683, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998431933410657200, guid: c366c2c9b2a18ac408ff15658eadf683, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1.0258
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998431933410657200, guid: c366c2c9b2a18ac408ff15658eadf683, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -71.911
       objectReference: {fileID: 0}
     - target: {fileID: 7435477428462849422, guid: c366c2c9b2a18ac408ff15658eadf683, type: 3}
       propertyPath: m_Name
@@ -1151,7 +1183,7 @@ Camera:
   far clip plane: 5000
   field of view: 40
   orthographic: 1
-  orthographic size: 8
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -6658,7 +6690,7 @@ Transform:
   m_GameObject: {fileID: 149822740188622525}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.950001, y: 0.059999943, z: -10}
+  m_LocalPosition: {x: -9.950001, y: -1.4599996, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7144,7 +7176,7 @@ MonoBehaviour:
   m_Follow: {fileID: 639450196}
   m_Lens:
     FieldOfView: 40
-    OrthographicSize: 8
+    OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
@@ -7266,16 +7298,16 @@ MonoBehaviour:
   m_ZDamping: 0
   m_TargetMovementOnly: 1
   m_ScreenX: 0.5
-  m_ScreenY: 0.72
+  m_ScreenY: 0.6
   m_CameraDistance: 10
   m_DeadZoneWidth: 0.2
-  m_DeadZoneHeight: 0.07
+  m_DeadZoneHeight: 0.1
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
   m_SoftZoneWidth: 0.8
-  m_SoftZoneHeight: 0.14
+  m_SoftZoneHeight: 0.8
   m_BiasX: 0
-  m_BiasY: -0.134
+  m_BiasY: 0
   m_CenterOnActivate: 1
   m_GroupFramingMode: 2
   m_AdjustmentMode: 0
